@@ -35,6 +35,7 @@ void rollback(int x) {
         *t[sz] = v[sz];
     }
 }
+
 int main() {
     return 0;
 }
