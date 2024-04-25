@@ -23,7 +23,7 @@ struct segTree {
     void build(int tl = 1, int tr = N, int v = 1) {
         if(tl == tr) {
             // assign variables to the seg tree
-            t[v] = *new Node(a[tl]);
+            t[v] = *new Node();
         }
         else {
             int mid = (tl + tr) >> 1;
